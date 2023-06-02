@@ -1,0 +1,236 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+
+<title>Welcome to rLab</title>
+<style type="text/css">
+body {
+    background-color: #030303;
+    background-image: url(images/black-wood-panels.jpg);
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto ;
+    max-width: 720px;
+    padding: 30px 50px;
+    text-align: center;
+    color: white;
+    font-family: "proxima-nova", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+}
+	h1 {
+		font-weight: 300;
+		font-size: 2em;
+		font-family: "proxima-nova", Helvetica, Arial, sans-serif;
+	}
+	h2 {
+    font-weight: 300;
+    font-size: 1.6em;
+    font-family: "proxima-nova", Helvetica, Arial, sans-serif;
+    color: #FF7A1F;
+	}
+	
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body p img {
+}
+.important h2 strong {
+}
+	
+	a:link, a:visited {
+    color: #279F8F;
+    text-decoration: none;
+    font-weight: 800;
+    transition: all .2s ease-in;		
+	}
+	a:hover, a:active {
+    text-decoration: none;
+    color: #D85F1E;
+    transition: all .2s ease-in;
+	}
+	p {
+    line-height: 140%;
+    font-size: 14px;
+	}
+	
+	.hexicon {
+		width: 140px;
+		height: 160px;
+		display: inline-block;
+		-webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+		background-color: #171717;
+		
+    background-size: cover;
+    background-position: center;
+
+		
+		display: flex;	
+		justify-content: center;
+  align-items: center;
+		margin: 10px;
+	}
+	
+	.hexicon>span {
+		text-transform: uppercase;
+		display: block;
+		padding-left: 45%;
+		padding-right: 4px;
+		margin: auto 0;
+		text-align: left;
+		font-size: .8em;
+		line-height: 120%;
+		transition: all .2s ease-in;
+	}
+	.hexicon>.light{
+		color: #000000 !important;
+	}
+	
+			.hexicon>.dark{
+		color: #fff !important;
+	}
+	
+	
+	.hexicon:hover>.light {
+		color: #ffffff !important;
+		transition: all .2s ease-in;
+	}
+	.hexicon:hover>.dark {
+		color: #000 !important;
+		transition: all .2s ease-in;
+	}
+	
+	.hexicon i {
+		display: block;
+		font-style: normal;
+		font-weight: 300;
+		
+	}
+	.hexicons {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+  align-items: center;
+	}
+	
+	.important {
+    margin-right: 0;
+    margin-left: 0;
+    margin-bottom: 20px;
+    padding: 5px 20px 10px 20px;
+    border-radius: 10px;
+    background: #7C2200;
+	color: white;
+	}
+	.important h2, .important a:link, .important a:visited {
+		color: white;
+	}
+	
+	.bigbutton {
+		display: block; 
+		background-color: aliceblue;
+		color: white !important; 
+		padding: 0.75rem 2rem; 
+		text-decoration: none; 
+		text-transform: uppercase; 
+		letter-spacing: 0.2rem;
+		font-size: 1.2rem;
+		border-radius: 0.4rem;
+		transition: all .3s;
+		margin: 1rem 3rem;
+		position: relative;
+		overflow: hidden;
+		z-index: 2;
+	}
+	
+	.bigbutton::before {
+		z-index: -1;
+		display: block; 
+		content: "";
+		 position: absolute;
+  top: 0; 
+  left: 0;
+  width: 100%; 
+  height: 100%;  
+  opacity: 1; 
+		background-image: url("images/buttonback.png");
+		background-size: cover;
+		background-position: center center;
+		transition: all .3s;
+		
+		
+	}
+	.bigbutton:hover::before {
+		
+		opacity: 0.5; 
+		color: black !important;
+	}
+	.bigbutton:hover {
+		color: black !important;
+	}
+</style>
+	<link rel="stylesheet" href="https://use.typekit.net/vua4nht.css">
+	
+
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png?v=694vBL6qGq">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png?v=694vBL6qGq">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png?v=694vBL6qGq">
+<link rel="manifest" href="/site.webmanifest?v=694vBL6qGq">
+<link rel="mask-icon" href="/safari-pinned-tab.svg?v=694vBL6qGq" color="#5bbad5">
+<link rel="shortcut icon" href="/favicon.ico?v=694vBL6qGq">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+
+</head>
+
+<body>
+
+<p><img src="images/rlab_logo_coloured.png" alt="rLab logo" width="214" height="214" title="rLab"/></p>
+<h1>rLAB – Reading’s Hackspace / Makerspace</h1>
+<p style="font-size: 22px">for makers, menders, re-purposers, creators, sharers and teachers – come join our community workshop, with amazing equipment and members to match</p>
+<p style="margin-bottom: 40px;"><a href="https://twitter.com/rdghack">Twitter</a> &nbsp;&nbsp;/&nbsp;&nbsp; <a href="https://en-gb.facebook.com/readinghackspace/">Facebook</a> &nbsp;&nbsp;/&nbsp;&nbsp; <a href="https://groups.google.com/d/forum/reading-hackspace">Google Group</a><a href="https://go.rlab.org.uk/wiki"><br>
+rLAB Wiki</a>
+
+&nbsp;&nbsp;/&nbsp;&nbsp; <a href="https://go.rlab.org.uk/merch">rLAB Merch</a>
+
+&nbsp;&nbsp;/&nbsp;&nbsp; <a href="https://go.rlab.org.uk/calendar">rLAB Calendar</a><br>
+</p>
+
+<h2 style="">Membership
+</h2>
+<p>As a community run workshop, we are run, maintained, funded and governed by our members. We have no paid staff, everyone volunteers to keep the space clean, tidy and the tools operational. Members are also responsible for holding inductions, running workshops and sharing their knowledge / expertise.</p>
+<p>Membership is only open to those <strong>18 years old and above</strong>, though parents can bring their children if they are adequately supervised. We ask for a <strong>regular monthly donation of £25</strong> which covers our rent, rates, bills and allows us to maintain and upgrade the space and the tools it holds. If you have a lower income we can be flexible with this donation, just ask.</p>
+<h2>Becoming a member </h2>
+<p>Before you can become a member you will need to visit and take a tour, and if you are interested you can sign-up, to enable us to match your availability and interests please request a tour. </p>
+<p><a href="https://www.cognitoforms.com/ReadingMakerspaceLimited/RLABReadingMakerspaceTourAndSignup" class="bigbutton">Request a tour <br>
+or sign-up session</a></p>
+<p>You will need to provide contact details and bring a form of <strong>Photo ID</strong> (Passport, driving license, identity card, student ID etc). There is also an Induction to the workshop which covers the main operational and safety issues. The process can take 1 to 1&frac12; hours depending on numbers.</p>
+<p>On completion you will be issued a <strong>smart card</strong> which gives you 24/7 access as long as you keep up monthly donations, otherwise your card will become inactive</p>
+<p>There are separate inductions available for the larger / more dangerous tools, these can be arranged using the <a href="https://groups.google.com/d/forum/reading-hackspace">Google Group</a> once you are a member.</p>
+<p><a href="https://www.google.co.uk/maps/place/rLab+-+Reading's+Hackspace/@51.457786,-0.9797709,18.75z/data=!4m13!1m7!3m6!1s0x48769b1065625da5:0xe1fad72d3d397c71!2sReading+RG1+7BX!3b1!8m2!3d51.4577547!4d-0.979558!3m4!1s0x48769b106d5205b5:0xfdaee590aa6d6754!8m2!3d51.4576838!4d-0.9799752"><strong>rLab – 
+  Unit C1</strong><br>
+Weldale Street<br>
+READING<br>
+RG1 7BX</a></p>
+
+
+<p> <br>
+You can find out more about us an what we are up to on</p>
+<p style="margin-bottom: 40px;"><a href="https://twitter.com/rdghack">Twitter</a> &nbsp;&nbsp;/&nbsp;&nbsp; <a href="https://en-gb.facebook.com/readinghackspace/">Facebook</a> &nbsp;&nbsp;/&nbsp;&nbsp; <a href="https://groups.google.com/d/forum/reading-hackspace">Google Group</a><br>
+<a href="https://go.rlab.org.uk/wiki">rLAB Wiki</a>
+
+&nbsp;&nbsp;/&nbsp;&nbsp; <a href="https://go.rlab.org.uk/merch">rLAB Merch</a>
+
+&nbsp;&nbsp;/&nbsp;&nbsp; <a href="https://go.rlab.org.uk/calendar">rLAB Calendar</a><br></p>
+	
+<iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23b8ffe8&ctz=Europe%2FLondon&hl=en_GB&showCalendars=0&showPrint=0&mode=AGENDA&src=cmVhZGluZ2hhY2tzcGFjZS5vcmcudWtfZmg3dTZtOWRxNXZxbm4zanVwMHM0aG44N2tAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&color=%23009688" style="border-width:0" width="620" height="400" frameborder="0" scrolling="no"></iframe>
+	<br>
+	<br>
+<p style="font-size: 12px"><strong>rLAB / Reading Hackspace</strong> are trading names of <strong>Reading Maker Space Limited</strong>, a non-profit company limited by guarantee, registered number <strong>07628386</strong></p>
+<p>&nbsp;</p>
+</body>
+</html>
